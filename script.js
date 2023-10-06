@@ -1,3 +1,6 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
 function firstNonRepeatedChar(str) {
 	
  // Write your code here
@@ -13,14 +16,14 @@ function firstNonRepeatedChar(str) {
   for (let i = 0; i < str.length; i++) {
     const char = str[i];
     if (charCount[char] === 1) {
-     console.log(char); // Return the first non-repeating character
+    return char; // Return the first non-repeating character
     }
   }
 
   // If no non-repeating character is found, return null or a default value
- console.log("null");
+ return null;
 }
 	// console.log("null");
-}
+
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
