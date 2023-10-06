@@ -5,10 +5,9 @@ function firstNonRepeatedChar(str) {
 		if(str.firstIndexOf(str.charAt(i))==lastIndexOf(str.charAt(i))){
 			return str.charAt(i);
 		}
-		else{
-			return null;
-		}
+
 	}
+		return null;
 }
 const input = prompt("Enter a string");
 alert(firstNonRepeatedChar(input)); 
