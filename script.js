@@ -13,12 +13,12 @@ function firstNonRepeatedChar(str) {
   for (let i = 0; i < str.length; i++) {
     const char = str[i];
     if (charCount[char] === 1) {
-      return char; // Return the first non-repeating character
+     console.log(char); // Return the first non-repeating character
     }
   }
 
   // If no non-repeating character is found, return null or a default value
-  return null;
+ console.log("null");
 }
 	// console.log("null");
 }
